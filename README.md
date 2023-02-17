@@ -16,19 +16,15 @@ Note:
 - The face detection may not be perfect and may need some tweaking depending on the lighting and other factors in the room, like 2+ cats
 
 # Roadmap
-+Planned improvements:
+Planned improvements:
 
-Adding error handling: The current implementation assumes that everything will work perfectly. However, in reality, there could be unexpected errors, such as the camera not working or the web page not loading properly. Adding error handling will make the code more robust and prevent it from crashing.
+- Error handling: The current implementation assumes that the cat will not walk on the keyboard.
 
-Making the code more modular: The current implementation is a single, monolithic script. This makes it difficult to understand and maintain. By breaking it up into smaller, more manageable functions, it will be easier to understand and modify.
+- Face detection accuracy: The current implementation uses a basic cat face detection algorithm, but does not attempt to detect cat emotions.
 
-Making the face detection more accurate: The current implementation uses a basic face detection algorithm, which may not work well in all lighting conditions or with all types of cats. Improving the accuracy of the face detection algorithm will make the code more reliable.
+- User interface: The current implementation does not save a history of watched videos. Some owners may want to set the scroll on infinite while they're at work then rewatch favorite TikToks with their cat as a way of asking, so how was your day?
 
-Adding user settings: The current implementation has hard-coded values for the screen coordinates and the number of Tiktoks to play. Adding a settings file or a user interface would make it easier for the user to customize these values.
-
-Adding more interactivity: The current implementation only plays Tiktoks when the cat is looking at the screen. Adding more interactivity, such as allowing the cat to swipe to the next Tiktok by moving its paw, would make the experience more engaging for the cat.
-
-Improving performance: The current implementation is not optimized for performance, and may be slow or resource-intensive. Improving performance will make the code more responsive and efficient. This could involve optimizing the face detection algorithm, using a more lightweight web browser, or running the code on a faster computer.
+- Additional interactivity: The current implementation only plays Tiktoks when the cat is looking at the screen. Adding more interactivity, such as allowing the cat to swipe to the next Tiktok by moving its paw, would make the experience more engaging for the cat.
 
 
 
